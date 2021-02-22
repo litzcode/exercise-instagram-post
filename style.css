@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: lightgray;
+}
+
+.container {
+    width: 50%;
+    padding-top: 2px;
+    background: white;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.logo {
+    flex: content;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.title {
+    flex: content;
+}
+
+.title-html5 {
+    margin: 0;
+}
+
+.title-username {
+    margin: 0;
+}
+
+.ellipsis-icon {
+    flex: auto;
+    text-align: right;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.post-info {
+    padding: 15px;
+}
+
+.font-awesome-box {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.right-icons {
+    text-align: right;
+}
